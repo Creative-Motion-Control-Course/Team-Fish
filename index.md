@@ -23,7 +23,7 @@ title: Home
   <p><em>University of California, Santa Barbara</em></p>
   <p>Eric Rennie is a creative technologist with a background that spans media, including video and audio production, physical computing, and computer science. He joined MAT with an interest in visualizing data in unconventional ways, especially by using information from the physical world to shape these visualizations and explore new modes of human–computer interaction. His goal is to eventually collaborate with architects and engineers to design large-scale immersive environments—public, corporate, and cultural spaces that move beyond four walls and respond to environmental or contextual data, transforming the media elements that surround the observer.
   
-  He is most excited to learn</p>
+  As a student in the Creative Motion Control course, Eric is most excited to explore embedded systems through machine modification, as well as physical computing by using sensors to drive CNC machines. He’s also interested in studying human-computer interaction to improve how people experience and use these tools.</p>
 </div>
 
 <!-- Copy the block above to add more team members -->
