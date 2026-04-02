@@ -11,9 +11,11 @@ title: Home
 
 <div style="text-align: center; max-width: 200px;">
   <img src="assets/member1.jpg" alt="Member 1 photo" width="150" style="border-radius: 50%;">
-  <h3>First Last</h3>
-  <p><em>Role or Major</em></p>
-  <p>A short bio — background, interests, what you're excited to explore in this course.</p>
+  <h3>Fiona Irving-Beck</h3>
+  <p><em>MS/PhD, Media Arts and Technology</em></p>
+  <p>Fiona Irving-Beck is a multimedia artist with research experience in applied mathematics. They are particularly interested in using interactive media to explore the boundary between the digital and physical worlds. Fiona holds BA degrees in mathematics and studio art from Scripps College.
+  
+  Within Creative Motion Control, Fiona is most excited to gain hands-on experience working with CNC machines and to explore alternative modes of interaction.</p>
 </div>
 
 <div style="text-align: center; max-width: 200px;">
