@@ -68,7 +68,7 @@ We tried multiple different configurations for the embossed metal sheet. More sp
 
 Another adjustment we made -- given the additional pressure required for embossing, our first servo motor burned out so we had to install a more powerful one. Here, see the new motor:
 
-*INSERT IMAGE HERE*
+![New Motor](assets/newmotor22.jpg)
 
 ### Code Overview
 
