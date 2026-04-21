@@ -45,7 +45,7 @@ Our primary challenge was navigating the flow of data. Eric already had fetched 
 
 To accomplish this, we used the p5_ui Arduino sketch as provided within the StepDance Axidraw examples. We also referenced Emilie Yu's sketch example for controlling a machine through a p5 interface in StepDance, available at: https://editor.p5js.org/em-yu/sketches/oLFB8F0hn. The serial connection between p5 and Arduino relies on the p5.serialcontrol desktop application. 
 
-Here, we observe the 
+Here, we observe some of our early testing of the p5 to StepDance serial connection, accurately representing the data generated in p5.js:
 
 ![First Test](assets/earlyprototype2.jpg)
 
