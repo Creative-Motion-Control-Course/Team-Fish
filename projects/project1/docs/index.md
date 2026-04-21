@@ -203,7 +203,7 @@ const intervalParticle = setInterval(() => {
 
 Here is our plotter in action. The video is as follows:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://youtube.com/shorts/ZVGGwz8qHyc?feature=share" frameborder="0" allowfullscreen></iframe>
 * NOTE: need to take video tmw morning *
 
 *Replace the iframe above with your actual video URL, or use a local video:*
