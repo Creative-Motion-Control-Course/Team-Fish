@@ -37,6 +37,10 @@ Due to plotter constraints, we had to change the sketch further. Our modificatio
 
 Additionally, for the sake of prototyping, we made the design choice to only work with a set amount of data within a 24 hour period. We believe that extending the project with live data is both feasible and also relatively straightforward, given that our flowfield updates every six minutes, the minimum API call for NOAA.  
 
+Here are three final example pieces:
+![Final](assets/Final pieces.jpg)
+
+
 ## Implementation
 
 (Describe how you implemented your project using the StepDance library.)
@@ -204,7 +208,6 @@ const intervalParticle = setInterval(() => {
 Here is our plotter in action. The video is as follows:
 
 <iframe width="560" height="315" src="https://youtu.be/qbphPG0tcMI" frameborder="0" allowfullscreen></iframe>
-* NOTE: need to take video tmw morning *
 
 *Replace the iframe above with your actual video URL, or use a local video:*
 
