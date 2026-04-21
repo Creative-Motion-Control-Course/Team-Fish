@@ -38,7 +38,7 @@ Due to plotter constraints, we had to change the sketch further. Our modificatio
 Additionally, for the sake of prototyping, we made the design choice to only work with a set amount of data within a 24 hour period. We believe that extending the project with live data is both feasible and also relatively straightforward, given that our flowfield updates every six minutes, the minimum API call for NOAA.  
 
 Here are three final example pieces:
-![Final](assets/final_Pieces.jpg)
+![Final](assets/final_Pieces2.jpg)
 
 
 ## Implementation
