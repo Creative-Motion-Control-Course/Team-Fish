@@ -26,22 +26,22 @@ Here is an example of a cyanotype image of cloth: ![Cyan](assets/cyanotype.jpg)
 
 We were very excited about embossing, and this dictated the form our hardware took. As detailed above in our proposal, we were particularly drawn to subtractive mediums, on both a conceptual and aesthetic level. 
 
-For the plotter path output, we were compelled to work with a Perlin noise flowfield. We initially struggled to decide how best to map our tide data water level to each generated line. We wanted cohesion to exist across the outputted image, but since we would be applying a noise/amplification effect to each individual one, this would not result in such cohesion. Instead, we decided to map water level to a parameter within a dynamic vector field. This way, sequential lines would share similar trajectories given their temporal proximity and common flowfield. 
+For the plotter path output, we were compelled to work with a Perlin noise flowfield. We initially struggled to decide how best to map our water level data to each generated line. We wanted cohesion to exist across the outputted image, but since we would be applying a noise/amplification effect to each individual line, this would not result in such cohesion. Instead, we decided to map water level to a parameter within a dynamic vector field. This way, sequential lines would share similar trajectories given their temporal proximity and common flowfield. 
 
-To create a dynamic flowfield, we worked from a wonderful YouTube code tutorial and example by Patt Vira, video link and original p5 sketch available at: https://www.youtube.com/watch?v=KOgRn2Brcdo, https://editor.p5js.org/pattvira/sketches/R5sp8PVXl. Going into the code and uncommenting the vector angles, it's possible to see how they dynamically swing at each time step. So, we decided to link the "increment" between each vector angle -- corresponding to how similar they are to one another -- to our value for water level. Thus, more dynamic paths are created during higher water level times, but each line is related to the one before and after it. 
+To create a dynamic flowfield, we worked from a wonderful YouTube code tutorial and example by Patt Vira, video link and original p5 sketch available at: https://www.youtube.com/watch?v=KOgRn2Brcdo, https://editor.p5js.org/pattvira/sketches/R5sp8PVXl. Going into the code and uncommenting the vector angles, it's possible to see how they dynamically swing at each time step. So, we decided to link the "increment" between each vector angle -- corresponding to how similar they are to one another -- to our water level value. Thus, more dynamic paths are created during higher water level times, but each line is related to the one before and after it. 
 
 Due to plotter constraints, we had to change the sketch further. Our modifications are as follows:
 1. The plotter can only draw one line at a time, corresponding to a single particle. Thus, we limited the scope of our system to one particle.
 
-2. The plotter cannot teleport, but particles can (falling off the canvas spawns them on the opposite side). To combat this, we delete our current particle once it reaches the edge of the canvas. 
+2. The plotter cannot teleport, but particles can--falling off the canvas spawns them on the opposite side. To combat this, we delete our current particle once it reaches the edge of the canvas. 
 
-Additionally, for the sake of prototyping, we made the design choice to just work with a set amount of data, within a 24 hour bound. We believe that extending the project with live data is both feasible and also relatively straightforward, given that our flowfield updates every six minutes (minimum API call for NOAA).  
+Additionally, for the sake of prototyping, we made the design choice to only work with a set amount of data within a 24 hour period. We believe that extending the project with live data is both feasible and also relatively straightforward, given that our flowfield updates every six minutes, the minimum API call for NOAA.  
 
 ## Implementation
 
 (Describe how you implemented your project using the StepDance library.)
 
-Our primary challenge was navigating the flow of data. Eric already had fetched NOAA data within p5 and we were working from a prior-existing Perlin noise flowfield p5 sketch framework. For this reason, it made the most sense to us to work to generate flowfield particle lines within p5.js, and then send this location information to StepDance. 
+Our primary challenge was navigating the flow of data. Eric already had fetched NOAA data within p5 and we were working from a prior-existing Perlin noise flowfield p5 sketch framework. For this reason, it made the most sense to us to generate flowfield particle lines within p5.js, and then send this location information to StepDance. 
 
 To accomplish this, we used the p5_ui Arduino sketch as provided within the StepDance Axidraw examples. We also referenced Emilie Yu's sketch example for controlling a machine through a p5 interface in StepDance, available at: https://editor.p5js.org/em-yu/sketches/oLFB8F0hn. The serial connection between p5 and Arduino relies on the p5.serialcontrol desktop application. 
 
@@ -58,7 +58,7 @@ Our hardware setup does not drastically differ from the original Axidraw configu
 
 ![Hardware setup photo](assets/tensiontip.jpg)
 
-This effectively provides enough additional pressure to dent the metal surface. We tried several pen heights, finding that too much pressure causes a rough line, and too little just scratches the surface. Here, we can see a line created with excess force (circled in red) versus one with appropriate tension. 
+This effectively provides enough additional pressure to dent the metal surface. We tried several pen heights, finding that too much pressure causes a rough line, and too little pressure only scratches the surface. Here, we can see a line created with excess force (circled in red) versus one with appropriate tension. 
 
 ![Tension Lines](assets/tensionlines22.jpg)
 
@@ -66,7 +66,7 @@ We tried multiple different configurations for the embossed metal sheet. More sp
 
 ![Soft Surface](assets/softsurface22.jpg)
 
-Another adjustment we made -- given the additional pressure required for embossing, our first servo motor burned out so we had to install a more powerful one. Here, see the new motor:
+Given the additional pressure required for embossing, our first servo motor burned out, so we installed a more powerful one. Here, see the new motor:
 
 ![New Motor](assets/newmotor22.jpg)
 
