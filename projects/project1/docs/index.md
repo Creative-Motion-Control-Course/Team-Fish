@@ -47,7 +47,7 @@ To accomplish this, we used the p5_ui Arduino sketch as provided within the Step
 
 Here, we observe the 
 
-![Hardware setup photo](assets/earlyprototype2.jpg)
+![First Test](assets/earlyprototype2.jpg)
 
 
 ### Hardware Setup
@@ -60,11 +60,11 @@ Our hardware setup does not drastically differ from the original Axidraw configu
 
 This effectively provides enough additional pressure to dent the metal surface. We tried several pen heights, finding that too much pressure causes a rough line, and too little just scratches the surface. Here, we can see a line created with excess force (circled in red) versus one with appropriate tension. 
 
-![Hardware setup photo](assets/tensionlines2.jpg)
+![Tension Lines](assets/tensionlines.jpg)
 
 We tried multiple different configurations for the embossed metal sheet. More specifically, we were uncertain if a hard or soft surface would provide the best embossing base. We found that a soft surface provided the clearest lines. So, our final setup included a soft styrofoam pad under the metal surface. We can see this underlying, soft surface in the following image: 
 
-![Hardware setup photo](assets/softsurface2.jpg)
+![Soft Surface](assets/softsurface.jpg)
 
 Another adjustment we made -- given the additional pressure required for embossing, our first servo motor burned out so we had to install a more powerful one. Here, see the new motor:
 
