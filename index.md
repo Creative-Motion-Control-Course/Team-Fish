@@ -36,7 +36,8 @@ title: Home
 
 | Project | Description |
 |---------|-------------|
-| [Project 1](projects/project1/docs/index.md) | A CNC embosser that uses water level data from Santa Barbara to construct a Perlin noise field | [Project 2](projects/project2/docs/index.md) | *Brief description of project 2* |
+| [Project 1](projects/project1/docs/index.md) | A CNC embosser that uses water level data from Santa Barbara to construct a Perlin noise field 
+| [Project 2](projects/project2/docs/proposal.md) | *Brief description of project 2* |
 <!-- Add rows as you complete more projects:
 | [Project 3](projects/project3/docs/) | *Brief description of project 3* |
 -->
