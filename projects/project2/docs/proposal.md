@@ -32,10 +32,13 @@ We are still in the process of determining what patterns the embosser will creat
 
 ## Required Components:
 (A list of required components (envisioned, not final))
-1. 
+1. Potentiometers
+2. Sliders
+3. Moving build blate?
+4. CNC machine (either plotter or 3d printer)
 
 ## Questions/Challenges:
 (A list of questions, challenges that come up when planning your idea.)
 
 1. From our current list of proposed next steps, what seems most feasible? It seems challenging to determine what strategies will be most effective without trying them out first? Is trying everything the best solution?
-2. 
+2. Do you think using a 3d printer or a pen plotter is the better CNC choice?
