@@ -33,7 +33,6 @@ title: Home
 </div>
 
 ## Projects
-
 | Project | Description |
 |---------|-------------|
 | [Project 1](projects/project1/docs/index.md) | A CNC embosser that uses water level data from Santa Barbara to construct a Perlin noise field |
