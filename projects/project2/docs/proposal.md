@@ -26,7 +26,9 @@ There are multiple directions we might take in order to improve the plotter. Her
 ## Software Requirements:
 (A description of the envisioned requirements for your software - e.g. how will you technically develop the interaction. This does not have to be a complete description but should cover how you think your project will work)
 
-We are still in the process of determining what patterns the embosser will  
+We are planning to include more user interaction through potentiometers and sliders which will control the x, y, and z positions of the machine. This gives practitioners a sense of direct authorship over the tool's movement. We also plan to develop generators that can produce repeatable parametric patterns, extending the user's ability to create consistent motifs at scale. 
+
+We are still in the process of determining what patterns the embosser will create. 
 
 ## Required Components:
 (A list of required components (envisioned, not final))
