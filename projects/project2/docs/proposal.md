@@ -14,15 +14,23 @@ There are multiple directions we might take in order to improve the plotter. Her
 1. Table mount for the Axidraw itself
 2. Mount and shim piece of plywood to provide a stable surface
 3. Experimenting with a softer metallic surface, such as normal alumnimum foil
+<img width="500" alt="Screenshot 2026-05-05 at 1 59 40 PM" src="https://github.com/user-attachments/assets/fa36bed0-c5c1-453c-8e6e-913e2672ed4d" />
+
 
 ### Z-Axis control:
 1. Creating a custom housing for the embosser tip, either with a rack and pinion setup or with a small lead screw
 2. Fixed head with moving platform -- might allow for more precise Z-axis control
 3. Real-time z-axis adjustment from the user -- adjusted via potentiometer ?
 
+<img width="600" alt="Screenshot 2026-05-05 at 2 17 59 PM" src="https://github.com/user-attachments/assets/ac230019-eaca-4f03-9593-87fe71d7df43" />
+
+
 ### Customizability:
 1. Second head that follows prior path and adds color
 2. Custom embossing tool changer / carousel
+
+<img width="700" alt="Screenshot 2026-05-05 at 2 18 51 PM" src="https://github.com/user-attachments/assets/e44cc805-95db-4787-ab7a-2bd807e4c9e0" />
+
 
 ## Software Requirements:
 (A description of the envisioned requirements for your software - e.g. how will you technically develop the interaction. This does not have to be a complete description but should cover how you think your project will work)
