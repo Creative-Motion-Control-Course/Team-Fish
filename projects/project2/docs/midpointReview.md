@@ -59,7 +59,7 @@ We have since abandoned this idea, and are instead working on a simpler caster a
 
 
 ## Software Work
-Simultaneously, we have beem working within p5.js to create a custom interface for participants to design their own embossing patterns. Here, we are balancing flexibility with some imposed constraints, so that designs are best suited for the embossing mechanism. There is currently a free drawing ability, which is this reflected over axis for a symmetrical design. We are emphasizing the role of symmetry, such that our embossing machine has a very specific use case -- humans cannot easily replicate symmetrical designs by hand without the use of a stencil. Along with the UI design, we are deciding on how best to format the data so that a user can preview their design, and then opt to send it to the embosser once satisfied. 
+Simultaneously, we have been working within p5.js to create a custom interface for participants to design their own embossing patterns. Here, we are balancing flexibility with some imposed constraints, so that designs are best suited for the embossing mechanism. There is currently a free drawing ability, which is this reflected over axis for a symmetrical design. We are emphasizing the role of symmetry, such that our embossing machine has a very specific use case -- humans cannot easily replicate symmetrical designs by hand without the use of a stencil. Along with the UI design, we are deciding on how best to format the data so that a user can preview their design, and then opt to send it to the embosser once satisfied. 
 
 ## Next Steps
 1. Software: As detailed above, we are continuing to work within p5.js to create a custom design interface.
