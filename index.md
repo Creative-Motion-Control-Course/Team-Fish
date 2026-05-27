@@ -39,6 +39,7 @@ title: Home
 | [Project 1](projects/project1/docs/index.md) | A CNC embosser that uses water level data from Santa Barbara to construct a Perlin noise field |
 | [Project 2 Proposal](projects/project2/docs/proposal.md) | A CNC machine which aims to offer the craft of embossing accuracy and symmetry that hand embossing can lack |
 | [Project 2 Mid-Point](projects/project2/docs/midpointReview.md) | Mid-Point Review of our CNC embosser |
+| [Project 2 Peer Review](projects/project2/docs/PeerReview.md) | Project 2 Peer Review of our CNC embosser |
 <!-- Add rows as you complete more projects:
 | [Project 3](projects/project3/docs/) | *Brief description of project 3* |
 -->
