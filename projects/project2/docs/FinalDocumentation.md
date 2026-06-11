@@ -34,9 +34,7 @@ This machine was shown as part of the MAT End of Year Show. Here, observe the se
 
 <img src="../../../assets/EOYS.png" width="400">
 
-Note that a separate monitor and mouse were used to allow attendees to create their own embossed designs. The collaborative artifacts that resulted are shown below. Participants greatly enjoyed using the device and were eager to learn about the mechanisms that drove it. It was rewarding to interact with these viewers!   
-
-[VIDEO]
+Note that a separate monitor and mouse were used to allow attendees to create their own embossed designs. The collaborative artifacts that resulted are shown below. Participants greatly enjoyed using the device and were eager to learn about the mechanisms that drove it. It was rewarding to interact with these viewers!  
 
 # Resulting Artifacts:
 We can first look at our first test artifact from our final hardware configuration and working UI. 
