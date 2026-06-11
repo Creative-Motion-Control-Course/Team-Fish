@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Development Documentation:
 
 ### CAD Work:
