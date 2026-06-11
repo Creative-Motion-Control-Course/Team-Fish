@@ -41,13 +41,15 @@ We can first look at our first test artifact from our final hardware configurati
 <img src="../../../assets/artifact1.png" width="400">
 
 Here, observe an artifact resulting from solely the caster mechanism with custom dotted line wheel, in naturalistic and non symmetric pathways. This is pictured alongside the wheel itself. 
+
 <img src="../../../assets/wheelpiece.JPG" width="400">
 
 Next, we look at three artifacts from the End of the Year Show, formed from many collaborative lines.
 [add imgs]
 
 Finally, we look at a more refined piece, following our increased familiarity with the machine. 
-<img src="../../../assets/finalartifact.jpg" width="400">
+
+<img src="../../../assets/finalartifact.JPG" width="400">
 
 
 # Final Reflection:
