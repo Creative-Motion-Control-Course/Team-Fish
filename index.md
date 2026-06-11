@@ -63,8 +63,8 @@ title: Home
       <td>Project 2 Code (UI & Arduino)</td>
     </tr>
     <tr>
-      <td><a href="projects/project2/docs/FinalDocumenation.md">Project 2 Final Documentation</a></td>
-      <td>Project 2 Code (UI & Arduino)</td>
+      <td><a href="projects/project2/docs/FinalDocumentation.md">Project 2 Final Documentation</a></td>
+      <td>Project 2 Final Documentation</td>
     </tr>
   </tbody>
 </table>
