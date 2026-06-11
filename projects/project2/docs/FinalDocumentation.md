@@ -52,7 +52,7 @@ Next, we look at three artifacts from the End of the Year Show, formed from many
 <img src="../../../assets/stamps.png" width="400">
 
 Finally, we look at a more refined piece, following our increased familiarity with the machine. 
-<img src="../../../assets/finalartifact.png" width="400">
+<img src="../../../assets/finalpiece.JPG" width="400">
 
 
 # Final Reflection:
