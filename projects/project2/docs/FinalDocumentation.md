@@ -7,7 +7,7 @@ We began our development process by  hand embossing with a stylus, and testing v
 
 We then began to design a caster mechanism in Fusion, in order to house a ball bearing and allow our custom wheels to easily pivot along the surface. This design went through several iterations -- increasing the stability of screw connections, and adding an upper lip to keep the ball bearing in place, finally landing on our current one. We also designed a rod that the caster mechanism screwed into, which was then then mounted to the printer.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qbphPG0tcMI?si=pqOeebkwLczqWqrm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://youtube.com/shorts/QATqlw9ah1Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Hardware:
 Simultaneously, we reconfigured the Ender 3D printer for our purposes. Ultimately we opted to use a ballpoint pin in lieu of our embossying styluses. The rolling mechanism allows for much smoother lines, further lubricated with pen ink. We used a pre-modeled toolhead https://github.com/AndrewSink/pltr_toolhead that allowed for a spring mechanism.  
@@ -16,7 +16,9 @@ Here, we see a video of the functioning embosser being used with a ballpoint pen
 
 <iframe width="560" height="315" src="https://youtu.be/Ifee8Bci4Ek" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+
 To better secure our foam surface and metal sheet, we then designed and laser cut a wooden frame. This frame is clamped to the edge of the Ender platform. We also designed a wooden box in CAD and then laser cut the sides, assembled to mask our Stepdance board and potentiometer base. See both frame and box pictured here. 
+
 
 <img src="../../../assets/box.JPG" width="400">
 
