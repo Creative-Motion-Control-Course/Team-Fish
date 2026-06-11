@@ -43,19 +43,19 @@ title: Home
   </thead>
   <tbody>
     <tr>
-      <td><a href="projects/project1/docs/index.md">Project 1</a></td>
+      <td><a href="projects/project1/docs/index">Project 1</a></td>
       <td>A CNC embosser that uses water level data from Santa Barbara to construct a Perlin noise field</td>
     </tr>
     <tr>
-      <td><a href="projects/project2/docs/proposal.md">Project 2 Proposal</a></td>
+      <td><a href="projects/project2/docs/proposal">Project 2 Proposal</a></td>
       <td>A CNC machine which aims to offer the craft of embossing accuracy and symmetry that hand embossing can lack</td>
     </tr>
     <tr>
-      <td><a href="projects/project2/docs/midpointReview.md">Project 2 Mid-Point</a></td>
+      <td><a href="projects/project2/docs/midpointReview">Project 2 Mid-Point</a></td>
       <td>Mid-Point Review of our CNC embosser</td>
     </tr>
     <tr>
-      <td><a href="projects/project2/docs/PeerReview.md">Project 2 Peer Review</a></td>
+      <td><a href="projects/project2/docs/PeerReview">Project 2 Peer Review</a></td>
       <td>Project 2 Peer Review of our CNC embosser</td>
     </tr>
     <tr>
@@ -63,7 +63,7 @@ title: Home
       <td>Project 2 Code (UI & Arduino)</td>
     </tr>
     <tr>
-      <td><a href="projects/project2/docs/FinalDocumentation.md">Project 2 Final Documentation</a></td>
+      <td><a href="projects/project2/docs/FinalDocumentation">Project 2 Final Documentation</a></td>
       <td>Project 2 Final Documentation</td>
     </tr>
   </tbody>
