@@ -10,7 +10,7 @@ We then began to design a caster mechanism in Fusion, in order to house a ball b
 <iframe width="560" height="315" src="https://youtu.be/EgRxJ07jZb4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Hardware:
-Simultaneously, we reconfigured the Ender 3D printer for our purposes. Ultimately we opted to use a ballpoint pin in lieu of our embossying styluses. The rolling mechanism allows for much smoother lines, further lubricated with pen ink. We used a pre-modeled toolhead https://github.com/AndrewSink/pltr_toolhead that allowed for a spring mechanism.  
+Simultaneously, we reconfigured the Ender 3D printer for our purposes. Ultimately we opted to use a ballpoint pin in lieu of our embossying styluses. The rolling mechanism allows for much smoother lines, further lubricated with pen ink. We used a [pre-modeled toolhead](https://github.com/AndrewSink/pltr_toolhead) that allowed for a spring mechanism.  
 
 Here, we see a video of the functioning embosser being used with a ballpoint pen. 
 
