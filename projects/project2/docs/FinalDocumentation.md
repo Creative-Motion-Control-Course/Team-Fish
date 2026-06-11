@@ -14,11 +14,11 @@ Simultaneously, we reconfigured the Ender 3D printer for our purposes. Ultimatel
 
 Here, we see a video of the functioning embosser being used with a ballpoint pen. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qbphPG0tcMI?si=pqOeebkwLczqWqrm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://youtu.be/Ifee8Bci4Ek" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-To better secure our foam surface and metal sheet, we then designed and laser cut a wooden frame. This frame is clamped to the edge of the Ender platform. We also designed a wooden box in CAD and then laser cut the sides, assembled to mask our Stepdance board and potentiometer base. 
+To better secure our foam surface and metal sheet, we then designed and laser cut a wooden frame. This frame is clamped to the edge of the Ender platform. We also designed a wooden box in CAD and then laser cut the sides, assembled to mask our Stepdance board and potentiometer base. See both frame and box pictured here. 
 
-<img src="../../../assets/box.png" width="400">
+<img src="../../../assets/box.JPG" width="400">
 
 We were sure to calibrate the four corners of our platform, to ensure surface regularity. We also would roll out each sheet of metal prior to clamping it in place. 
 
@@ -43,16 +43,11 @@ We can first look at our first test artifact from our final hardware configurati
 Here, observe an artifact resulting from solely the caster mechanism with custom dotted line wheel, in naturalistic and non symmetric pathways. This is pictured alongside the wheel itself. 
 <img src="../../../assets/wheelpiece.JPG" width="400">
 
-We can also use our wheels in conjunction with our basic pentip, resulting in pieces as so
-<img src="../../../assets/stamps.png" width="400">
-
 Next, we look at three artifacts from the End of the Year Show, formed from many collaborative lines.
-<img src="../../../assets/stamps.png" width="400">
-<img src="../../../assets/stamps.png" width="400">
-<img src="../../../assets/stamps.png" width="400">
+[add imgs]
 
 Finally, we look at a more refined piece, following our increased familiarity with the machine. 
-<img src="../../../assets/finalpiece.JPG" width="400">
+<img src="../../../assets/finalartifact.jpg" width="400">
 
 
 # Final Reflection:
