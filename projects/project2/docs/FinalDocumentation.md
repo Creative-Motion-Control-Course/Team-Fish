@@ -3,38 +3,34 @@
 ### CAD Work:
 We began our development process by  hand embossing with a stylus, and testing various 3D printed stamps on our metal surface. We continued our CAD stage of design, creating a series of rolling wheels. 
 
-<img src="../../../assets/stamps.png" width="400">
+<img src="../../../assets/embossingWheelsAndPlate.jpeg" width="200"> 
 
 We then began to design a caster mechanism in Fusion, in order to house a ball bearing and allow our custom wheels to easily pivot along the surface. This design went through several iterations -- increasing the stability of screw connections, and adding an upper lip to keep the ball bearing in place, finally landing on our current one. We also designed a rod that the caster mechanism screwed into, which was then then mounted to the printer.
 
-<figure>
-  <img src="../../../assets/crushedPeg.jpeg" width="200">
-  <figcaption>Video of Caster wheel working.</figcaption>
-</figure>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qbphPG0tcMI?si=pqOeebkwLczqWqrm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Hardware:
 Simultaneously, we reconfigured the Ender 3D printer for our purposes. Ultimately we opted to use a ballpoint pin in lieu of our embossying styluses. The rolling mechanism allows for much smoother lines, further lubricated with pen ink. We used a pre-modeled toolhead https://github.com/AndrewSink/pltr_toolhead that allowed for a spring mechanism.  
 
 Here, we see a video of the functioning embosser being used with a ballpoint pen. 
 
-[INSERT VIDEO]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qbphPG0tcMI?si=pqOeebkwLczqWqrm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 To better secure our foam surface and metal sheet, we then designed and laser cut a wooden frame. This frame is clamped to the edge of the Ender platform. We also designed a wooden box in CAD and then laser cut the sides, assembled to mask our Stepdance board and potentiometer base. 
 
-<img src="../../../assets/stamps.png" width="400">
+<img src="../../../assets/box.png" width="400">
 
 We were sure to calibrate the four corners of our platform, to ensure surface regularity. We also would roll out each sheet of metal prior to clamping it in place. 
 
 ### UI and Frontend:
 The UI was developed in p5.js, using a custom Websocket connection to send data to the Arduino sketch. Here, the user can draw a series of lines, aided by an optional symmetry feature. Erase and Undo buttons ar implemented as well. Once a design is finalized, the user may press "Send" to begin the embossing process. The lines are sent in batches, spaced as necessary to not overwhelm the board. The user might also make adjustments to the Z axis position with the potentiometer control, to ensure the pressure level of embossing is correct. 
 
-<img src="../../../assets/stamps.png" width="400">
+<img src="../../../assets/UI.png" width="400">
 
 # End of Year Show:
 This machine was shown as part of the MAT End of Year Show. Here, observe the setup. 
 
-<img src="../../../assets/stamps.png" width="400">
+<img src="../../../assets/EOYS.png" width="400">
 
 Note that a separate monitor and mouse were used to allow attendees to create their own embossed designs. The collaborative artifacts that resulted are shown below. Participants greatly enjoyed using the device and were eager to learn about the mechanisms that drove it. It was rewarding to interact with these viewers!   
 
@@ -42,20 +38,21 @@ Note that a separate monitor and mouse were used to allow attendees to create th
 
 # Resulting Artifacts:
 We can first look at our first test artifact from our final hardware configuration and working UI. 
-<img src="../../../assets/stamps.png" width="400">
+<img src="../../../assets/artifact1.png" width="400">
 
 Here, observe an artifact resulting from solely the caster mechanism with custom dotted line wheel, in naturalistic and non symmetric pathways. This is pictured alongside the wheel itself. 
-<img src="../../../assets/stamps.png" width="400">
+<img src="../../../assets/wheelpiece.png" width="400">
 
 We can also use our wheels in conjunction with our basic pentip, resulting in pieces as so
 <img src="../../../assets/stamps.png" width="400">
 
-
 Next, we look at three artifacts from the End of the Year Show, formed from many collaborative lines.
+<img src="../../../assets/stamps.png" width="400">
+<img src="../../../assets/stamps.png" width="400">
 <img src="../../../assets/stamps.png" width="400">
 
 Finally, we look at a more refined piece, following our increased familiarity with the machine. 
-<img src="../../../assets/stamps.png" width="400">
+<img src="../../../assets/finalartifact.png" width="400">
 
 
 # Final Reflection:
