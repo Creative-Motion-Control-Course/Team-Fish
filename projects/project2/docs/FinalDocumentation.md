@@ -11,18 +11,14 @@ We began our development process by  hand embossing with a stylus and testing va
 
 Then, we began to design a caster mechanism in Fusion in order to house a ball bearing and allow our custom wheels to easily pivot along the surface. This design went through several iterations, including increasing the stability of screw connections and adding an upper lip to keep the ball bearing in place. Additionally, we created a rod that the caster mechanism screws into, which is then mounted to the printer.
  
-<div>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EgRxJ07jZb4?si=XrdXgyLfqc77kPEz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
 
 ### Hardware:
 Simultaneously, we reconfigured the Ender 3D printer for our purposes. We ultimately opted to use a ballpoint pen in lieu of our embossying styluses. The rolling mechanism of the pen and lubricating pen ink allows for much smoother lines. We also used a [pre-modeled toolhead](https://github.com/AndrewSink/pltr_toolhead) that includes a spring mechanism which compensates for both the amount of force required for embossing and any surface irregularities encountered throughout the process.  
 
 Here, we see a video of the functioning embosser being used with a ballpoint pen. 
 
-<div>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ifee8Bci4Ek?si=R_-foS5v9JEiwPtD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
 
 To better secure our foam surface and metal sheet, we designed and laser cut a wooden frame, which is then clamped on the perimeter of the Ender platform. Furthermore, we designed and laser cut a wooden box, assembled to mask our Stepdance board and potentiometer. See both frame and box pictured here. 
 
@@ -45,9 +41,7 @@ Note that a separate monitor and mouse were used to allow attendees to create th
 # Resulting Artifacts:
 We can start by looking at the first test artifact developed from our final hardware configuration and working UI. 
 
-<div>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5WrpiEKs30Q?si=rN3iWY7urapHSgLo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
 
 Here, observe an artifact resulting solely from the caster mechanism using the custom dotted line wheel in naturalistic and non symmetric pathways. This is pictured alongside the wheel itself. 
 
