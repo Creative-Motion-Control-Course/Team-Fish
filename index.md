@@ -59,7 +59,7 @@ title: Home
       <td>Project 2 Peer Review of our CNC embosser</td>
     </tr>
     <tr>
-      <td><a href="projects/project2/code/">Project 2 Code</a></td>
+      <td><a href="https://github.com/Creative-Motion-Control-Course/Team-Fish/tree/main/projects/project2/code">Project 2 Code</a></td>
       <td>Project 2 Code (UI & Arduino)</td>
     </tr>
   </tbody>
