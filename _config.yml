@@ -8,4 +8,6 @@ description: Course project documentation
 # Build settings
 markdown: kramdown
 kramdown:
+  html_to_native: true
+  parse_block_html: true
   input: GFM
