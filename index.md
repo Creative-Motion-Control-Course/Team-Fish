@@ -62,5 +62,9 @@ title: Home
       <td><a href="https://github.com/Creative-Motion-Control-Course/Team-Fish/tree/main/projects/project2/code">Project 2 Code</a></td>
       <td>Project 2 Code (UI & Arduino)</td>
     </tr>
+    <tr>
+      <td><a href="projects/project2/docs/FinalDocumenation.md">Project 2 Final Documentation</a></td>
+      <td>Project 2 Code (UI & Arduino)</td>
+    </tr>
   </tbody>
 </table>
