@@ -40,14 +40,19 @@ Note that a separate monitor and mouse were used to allow attendees to create th
 
 # Resulting Artifacts:
 We can first look at our first test artifact from our final hardware configuration and working UI. 
-<img src="../../../assets/artifact1.png" width="400">
+<iframe width="560" height="315" src="https://youtu.be/5WrpiEKs30Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Here, observe an artifact resulting from solely the caster mechanism with custom dotted line wheel, in naturalistic and non symmetric pathways. This is pictured alongside the wheel itself. 
 
 <img src="../../../assets/wheelpiece.JPG" width="400">
 
-Next, we look at three artifacts from the End of the Year Show, formed from many collaborative lines.
-[add imgs]
+We can also use the dotted wheel in conjunction with the normal pen tip. 
+
+<img src="../../../assets/mix.JPG" width="400">
+
+Next, we look at an artifact from the End of the Year Show, formed from many collaborative lines.
+
+<img src="../../../assets/eoys1.JPG" width="400">
 
 Finally, we look at a more refined piece, following our increased familiarity with the machine. 
 
