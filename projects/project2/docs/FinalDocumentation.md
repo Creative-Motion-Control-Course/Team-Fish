@@ -3,41 +3,65 @@
 ### CAD Work:
 We began our development process by  hand embossing with a stylus, and testing various 3D printed stamps on our metal surface. We continued our CAD stage of design, creating a series of rolling wheels. 
 
-[INSERT IMAGE]
+<img src="../../../assets/stamps.png" width="400">
 
+We then began to design a caster mechanism in Fusion, in order to house a ball bearing and allow our custom wheels to easily pivot along the surface. This design went through several iterations -- increasing the stability of screw connections, and adding an upper lip to keep the ball bearing in place, finally landing on our current one. We also designed a rod that the caster mechanism screwed into, which was then then mounted to the printer.
 
+<figure>
+  <img src="../../../assets/crushedPeg.jpeg" width="200">
+  <figcaption>Video of Caster wheel working.</figcaption>
+</figure>
 
 
 ### Hardware:
-Simultaneously, we reconfigured the Ender 3D printer for our purposes. Ultimately we opted to use a ballpoint pin in lieu of our embossying styluses. The rolling mechanism allows for much smoother lines, further lubricated with pen ink. We used a pre-modeled toolhead https://github.com/AndrewSink/pltr_toolhead . 
+Simultaneously, we reconfigured the Ender 3D printer for our purposes. Ultimately we opted to use a ballpoint pin in lieu of our embossying styluses. The rolling mechanism allows for much smoother lines, further lubricated with pen ink. We used a pre-modeled toolhead https://github.com/AndrewSink/pltr_toolhead that allowed for a spring mechanism.  
 
-Here, we see a video of the functioning plotter with a ballpoint pen. [INSERT VIDEO]
+Here, we see a video of the functioning embosser being used with a ballpoint pen. 
 
-To better secure our foam surface and metal sheet, we then created a 
+[INSERT VIDEO]
 
+To better secure our foam surface and metal sheet, we then designed and laser cut a wooden frame. This frame is clamped to the edge of the Ender platform. We also designed a wooden box in CAD and then laser cut the sides, assembled to mask our Stepdance board and potentiometer base. 
 
+<img src="../../../assets/stamps.png" width="400">
 
-
-
-
+We were sure to calibrate the four corners of our platform, to ensure surface regularity. We also would roll out each sheet of metal prior to clamping it in place. 
 
 ### UI and Frontend:
-The UI was developed in p5.js, using a custom Websocket connection to send data points to the Arduino sketch 
- 
+The UI was developed in p5.js, using a custom Websocket connection to send data to the Arduino sketch. Here, the user can draw a series of lines, aided by an optional symmetry feature. Erase and Undo buttons ar implemented as well. Once a design is finalized, the user may press "Send" to begin the embossing process. The lines are sent in batches, spaced as necessary to not overwhelm the board. The user might also make adjustments to the Z axis position with the potentiometer control, to ensure the pressure level of embossing is correct. 
 
+<img src="../../../assets/stamps.png" width="400">
 
 # End of Year Show:
 This machine was shown as part of the MAT End of Year Show. Here, observe the setup. 
-[INSERT IMAGE]
 
-Note that a separate monitor and mouse were used to allow attendees to create their own embossed designs. The collaborative artifacts that resulted are shown below. Participants greatly enjoyed using the device and were eager to learn about the mechanisms that drove it. It was rewarding to interact with viewers.   
+<img src="../../../assets/stamps.png" width="400">
 
+Note that a separate monitor and mouse were used to allow attendees to create their own embossed designs. The collaborative artifacts that resulted are shown below. Participants greatly enjoyed using the device and were eager to learn about the mechanisms that drove it. It was rewarding to interact with these viewers!   
 
-
+[VIDEO]
 
 # Resulting Artifacts:
+We can first look at our first test artifact from our final hardware configuration and working UI. 
+<img src="../../../assets/stamps.png" width="400">
 
+Here, observe an artifact resulting from solely the caster mechanism with custom dotted line wheel, in naturalistic and non symmetric pathways. This is pictured alongside the wheel itself. 
+<img src="../../../assets/stamps.png" width="400">
+
+We can also use our wheels in conjunction with our basic pentip, resulting in pieces as so
+<img src="../../../assets/stamps.png" width="400">
+
+
+Next, we look at three artifacts from the End of the Year Show, formed from many collaborative lines.
+<img src="../../../assets/stamps.png" width="400">
+
+Finally, we look at a more refined piece, following our increased familiarity with the machine. 
+<img src="../../../assets/stamps.png" width="400">
 
 
 # Final Reflection:
-Our process was extremely involved. We pushed ourselves to complete a meaningful working prototype. Perhaps something more aesthetically pleasing than a normal ballpoint pen would be better in the long term. The space of further work and improvement is essentially limitless!
+Moving from a more unconventional, artistic approach where water level data influenced the amount of Perlin noise applied to a particle that moves across a canvas, we decided to create a machine that aids and improves the craft of embossing. Two areas of standard embossing that we noticed could be improved through the collaboration of a computer are symmetry and a pre-planned path. In standard hand-embossing, it is difficult to perfectly draw the same line or pattern on several symmetrical areas of the embossing surface. It is also impossible to undo any marks made on the surface. In order to solve both of these problems, we implemented a user interface (UI) that offers users the ability to divide the canvas into equal parts, determined by the symmetry slider value, and apply a drawing or design on all slices by drawing on a single point on the canvas. We also included an undo button, which erases one stroke at a time starting from the most recent, an erase button to begin anew, and a send button which sends the drawing to the CNC machine when complete. 
+
+Beyond the UI, we used CAD to create our own embossing wheel mechanism, commonly used in embossing to create repeatable patterns on the drawing surface. We tested a variety of patterns and selected our favorites, and created a caster based mechanism that can be rolled along the drawing surface through a pre-planned path from the UI. Additionally, we added a spring loaded mechanism that holds the embossing pen and wheels during operation, which makes up for the amount of force needed to emboss and the uneven surfaces that can occur during embossing. 
+
+Our process was extremely involved. We pushed ourselves to complete a meaningful working prototype. Perhaps something more aesthetically pleasing than a normal ballpoint pen would be better in the long term. Additionally, we would like to revisit the embossing wheel mechanism - due to the caster implementation, minute details become lost as it is more optimally used for large curves or lines. An idea we have is to mount a servo motor on the CNC machine ender, so that rotation of the embossing wheel can be finer and turned with respect to the angle and slope of the lines being sent to the machine from the UI. The space of further work and improvement is essentially limitless!
+
