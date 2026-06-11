@@ -41,7 +41,7 @@ We can first look at our first test artifact from our final hardware configurati
 <img src="../../../assets/artifact1.png" width="400">
 
 Here, observe an artifact resulting from solely the caster mechanism with custom dotted line wheel, in naturalistic and non symmetric pathways. This is pictured alongside the wheel itself. 
-<img src="../../../assets/wheelpiece.png" width="400">
+<img src="../../../assets/wheelpiece.jpg" width="400">
 
 We can also use our wheels in conjunction with our basic pentip, resulting in pieces as so
 <img src="../../../assets/stamps.png" width="400">
