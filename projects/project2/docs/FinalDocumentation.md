@@ -27,7 +27,7 @@ We were sure to calibrate the four corners of our platform, to ensure surface re
 ### UI and Frontend:
 The UI was developed in p5.js, using a custom Websocket connection to send data to the Arduino sketch. Here, the user can draw a series of lines, aided by an optional symmetry feature. Erase and Undo buttons ar implemented as well. Once a design is finalized, the user may press "Send" to begin the embossing process. The lines are sent in batches, spaced as necessary to not overwhelm the board. The user might also make adjustments to the Z axis position with the potentiometer control, to ensure the pressure level of embossing is correct. 
 
-<img src="../../../assets/UI.png" width="400">
+<img src="../../../assets/UI.png" width="500">
 
 # End of Year Show:
 This machine was shown as part of the MAT End of Year Show. Here, observe the setup. 
@@ -46,13 +46,13 @@ Here, observe an artifact resulting from solely the caster mechanism with custom
 
 We can also use the dotted wheel in conjunction with the normal pen tip. 
 
-<img src="../../../assets/mix.JPG" width="400">
+<img src="../../../assets/mix.JPG" width="200">
 
 Next, we look at an artifact from the End of the Year Show, formed from many collaborative lines.
 
-<img src="../../../assets/eoys1.JPG" width="400">
+<img src="../../../assets/eoys1.JPG" width="200">
 
-Finally, we look at a more refined piece, following our increased familiarity with the machine. 
+Finally, we look at a more refined piece, reflecting our increased familiarity with the machine. 
 
 <img src="../../../assets/finalartifact.JPG" width="400">
 
