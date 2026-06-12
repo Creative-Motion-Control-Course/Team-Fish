@@ -11,7 +11,7 @@ We began our development process by  hand embossing with a stylus and testing va
 
 Then, we began to design a caster mechanism in Fusion in order to house a ball bearing and allow our custom wheels to easily pivot along the surface. This design went through several iterations, including increasing the stability of screw connections and adding an upper lip to keep the ball bearing in place. Additionally, we created a rod that the caster mechanism screws into, which is then mounted to the printer. Naturally, we also modeled several smaller rods that fit inside of the wheel and the side caster parts. Here, we show an image of the final design, as well as a short video showing the wheel effectively embossing our surface. 
 
-<img src="../../../assets/FinalDesign.jpeg" width="300"> 
+<img src="../../../assets/FinalDesign.png" width="300"> 
  
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EgRxJ07jZb4?si=XrdXgyLfqc77kPEz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
