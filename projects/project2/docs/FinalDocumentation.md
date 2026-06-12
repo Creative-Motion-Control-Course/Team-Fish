@@ -5,11 +5,13 @@ layout: default
 # Development Documentation:
 
 ### CAD Work:
-We began our development process by  hand embossing with a stylus and testing various 3D printed stamps on our metal surface. We continued our CAD stage of design, creating a series of rolling wheels. 
+We began our development process by  hand embossing with a stylus and testing various 3D printed stamps on our metal surface. We continued our CAD stage of design, creating a series of rolling wheels. Here, we can see several different wheel types shown, along with a mounting plate that we designed but did not ultimately use. 
 
 <img src="../../../assets/embossingWheelsAndPlate.jpeg" width="200"> 
 
-Then, we began to design a caster mechanism in Fusion in order to house a ball bearing and allow our custom wheels to easily pivot along the surface. This design went through several iterations, including increasing the stability of screw connections and adding an upper lip to keep the ball bearing in place. Additionally, we created a rod that the caster mechanism screws into, which is then mounted to the printer.
+Then, we began to design a caster mechanism in Fusion in order to house a ball bearing and allow our custom wheels to easily pivot along the surface. This design went through several iterations, including increasing the stability of screw connections and adding an upper lip to keep the ball bearing in place. Additionally, we created a rod that the caster mechanism screws into, which is then mounted to the printer. Naturally, we also modeled several smaller rods that fit inside of the wheel and the side caster parts. Here, we show an image of the final design, as well as a short video showing the wheel effectively embossing our surface. 
+
+<img src="../../../assets/FinalDesign.jpeg" width="300"> 
  
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EgRxJ07jZb4?si=XrdXgyLfqc77kPEz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -32,30 +34,30 @@ The UI was developed in p5.js, using a custom Websocket connection that sends da
 <img src="../../../assets/UI.png" width="500">
 
 # End of Year Show:
-This machine was shown as part of the MAT End of Year Show. Observe the setup here. 
+This machine was shown as part of the MAT End of Year Show in ECL. Observe the setup here -- a previously created piece is displayed, along with our finalized embossing machine, a short description of our work, and an interactive UI. 
 
 <img src="../../../assets/EOYS.png" width="400">
 
-Note that a separate monitor and mouse were used to allow attendees to create their own embossed designs. The collaborative artifacts that resulted are shown below. Participants greatly enjoyed using the device and were eager to learn about the mechanisms that drove it. It was rewarding to interact with these viewers!  
+Note that a separate monitor and mouse were used to allow attendees to create their own embossed designs. An example of a collaborative artifact that resulted are shown below. Participants greatly enjoyed using the device and were eager to learn about the mechanisms that drove it. Several sheets of metal had to be used since so many attendees wanted to try our machine. It was rewarding to interact with these viewers! Though, the mouse connection was a bit unstable at times. If we show this at any future events, we would want to be more meticulous with testing our interactive setup.  
 
 # Resulting Artifacts:
 We can start by looking at the first test artifact developed from our final hardware configuration and working UI. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5WrpiEKs30Q?si=rN3iWY7urapHSgLo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Here, observe an artifact resulting solely from the caster mechanism using the custom dotted line wheel in naturalistic and non symmetric pathways. This is pictured alongside the wheel itself. 
+Here, observe an artifact resulting solely from the caster mechanism using the custom dotted line wheel in naturalistic and non symmetric pathways. This is pictured alongside the wheel itself. We note that the caster wheel excels at following longer and fluid, curved paths rather than symmetrical, shorter lines as the normal pen tip does. 
 
 <img src="../../../assets/wheelpiece.JPG" width="400">
 
-We can also use the dotted wheel in conjunction with the normal pen tip. 
+We can also use the dotted wheel in conjunction with the normal pen tip. Here, we switch out the tip that is used mid way through the embossing process. In the future, it might be interesting to continue experimenting with using both pen types in a piece, potentially relying on pattern wheels for backgrounds (as they are often used for this purpose in the analog embossing process!). No issues emerged with the overlapping lines -- e.g. dotted wheel intersecting with prior existing pen tip line. 
 
 <img src="../../../assets/mix.JPG" width="200">
 
-Next we have at an artifact from the End of the Year Show, formed from many collaborative lines.
+Next we look at an artifact from the End of the Year Show, formed from many collaborative, smaller patterns. It appears to be a tapestry of different symmetry types and design concepts. We appreciate how it shows collective interaction, where each viewer builds upon the work of prior participants. This feels like a meaningful mode of creation, where a tool is demonstrated and its use by many is reflected in the finished artifact.  
 
 <img src="../../../assets/eoys1.JPG" width="200">
 
-Finally, here is a more refined piece that reflects our increased familiarity with the machine. 
+Finally, here is a more refined piece that reflects our increased familiarity with the machine. This work was created after fixing some of the limits with queueing, which allowed us to fully preview the design before sending it over to the embosser (rather than building the design more slowly).  
 
 <img src="../../../assets/finalartifact.JPG" width="400">
 
